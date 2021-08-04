@@ -1,0 +1,47 @@
+.weatherCard{
+    border: 1px solid cornflowerblue;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-family: "Space Grotesk", Arial, sans-serif !important;
+}
+
+.dateAndTime{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.placeCard{
+    font-size: x-large;
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.mainTemp{
+    font-size: xx-large;
+    display: flex; 
+    justify-content: flex-end;
+    padding: 5px;
+}
+.overallWeather{
+    font-size: small;
+    display: flex;
+    font-weight: 700;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.otherInfo{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+}
+.otherInfo>li{
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
