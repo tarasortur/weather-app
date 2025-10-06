@@ -1,7 +1,7 @@
 const formatTheWeatherData = (data, convUnit) => {
     let newObj = {};
     data.forEach((d) => {
-        let dateTime = d.dt_txt.split(' ');
+        let dateTime = d.dt_txt.split('');
         if (Object.keys(newObj).includes(dateTime[0])) {
             newObj[dateTime[0]].avgTemp += d.main.temp;
         }
